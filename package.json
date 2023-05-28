@@ -7,7 +7,7 @@
     "scripts": {
       "setup": "yarn vercel login && yarn vercel link",
       "start": "yarn vercel dev",
-      "dev": "./pocketbase serve",
+      "dev": "./pocketbase serve --host",
       "build": "./pocketbase"
     }
   }

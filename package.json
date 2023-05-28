@@ -1,11 +1,14 @@
 {
-  "name": "wps-backup",
-  "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "start": "./pocketbase serve",
-    "build": ""
-  },
-  "author": "",
-  "license": "ISC"
-}
+    "name": "allforwaterDB",
+    "version": "1.0.0",
+    "dependencies": {
+      "vercel": "^28.16.12"
+    },
+    "scripts": {
+      "setup": "yarn vercel login && yarn vercel link",
+      "start": "yarn vercel dev",
+      "dev": "./pocketbase serve",
+      "build": "./pocketbase"
+    }
+  }
+  
